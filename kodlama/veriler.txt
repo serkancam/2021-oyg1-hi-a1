@@ -1,0 +1,4 @@
+emek çağrı,kuru,608,5,a,100,98,ali,fatma
+serkan,çam,587,5,c,100,89,95,hasan,ayşe
+doğan,şahin
+şakire,kıvırcık

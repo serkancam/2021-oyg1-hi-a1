@@ -1,0 +1,2 @@
+serkan,çam,39
+hasan,kul,22
