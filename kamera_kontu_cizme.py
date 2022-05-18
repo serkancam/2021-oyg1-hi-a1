@@ -10,7 +10,7 @@ while True:
     blur = cv2.GaussianBlur(gri,(3,3),0)
     canny=cv2.Canny(blur,40,100)
     konturlar,_=cv2.findContours(canny,cv2.RETR_TREE,cv2.CHAIN_APPROX_SIMPLE)
-    cv2.drawContours(frame,konturlar,-1,(0,0,255),2)
+    cv2.drawContours(frame,konturlar,-1,(0,0,255),1)
     #adaptif eşikleme
     sb=cv2.adaptiveThreshold(gri,255,cv2.ADAPTIVE_THRESH_MEAN_C,cv2.THRESH_BINARY,7,3)
     konturlar2,_=cv2.findContours(sb,cv2.RETR_TREE,cv2.CHAIN_APPROX_SIMPLE)
